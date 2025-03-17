@@ -143,11 +143,33 @@ img {
   .row {
     flex-direction: column;
   }
-}
 
-.lessons .col,
-.steps .col,
-.why-us .col-left,
-.why-us .col-right {
-  width: 100%;
+  .lessons .col,
+  .steps .col,
+  .why-us .col-left,
+  .why-us .col-right {
+    width: 100%;
+  }
+
+  .lessons p {
+    margin-bottom: 3rem;
+  }
+
+  .steps p {
+    margin-bottom: 5rem;
+  }
+
+  .steps {
+    margin: 0;
+  }
+
+  .why-us {
+    background-color: #222222;
+    margin-bottom: 0;
+    padding: 3rem 0;
+  }
+
+  .why-us img {
+    padding-bottom: 3rem;
+  }
 }
