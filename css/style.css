@@ -135,6 +135,7 @@ img {
   }
 }
 
+/* DISPOSITIVI SMALL */
 @media screen and (max-width: 480px) {
   .container {
     width: 100%;
@@ -171,5 +172,12 @@ img {
 
   .why-us img {
     padding-bottom: 3rem;
+  }
+}
+
+/* DA 768 A 1160 */
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+  .container {
+    width: 100%;
   }
 }
